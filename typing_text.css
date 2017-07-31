@@ -1,0 +1,13 @@
+#idBlock::after {
+    content: '|'; 
+    animation: blinking 0.2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes blinking {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+} 
